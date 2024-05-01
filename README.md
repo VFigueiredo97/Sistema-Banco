@@ -10,6 +10,15 @@ Criei um sistema bancário simples para que o usuário possa fazer as seguintes 
 -   Consultar saldo da conta bancária
 -   Emitir extrato bancário
 
+Pontos importantes, para que possamos utilizar esta aplicação, é preciso realizar a instalação de alguns recursos:
+- Express - Depencies
+- Nodemon - Dev Dependencies
+
+Obs: a configuração do Package.jason deve estar no formato abaixo:
+![image](https://github.com/VFigueiredo97/Sistema-Banco/assets/157542261/e06bc54a-7aa0-4228-ada9-87b40b03f938)
+
+
+
 Para esse projeto estou rodando basicamente através do Insomnia com alguns comandos simples para cada uma das atividades listadas acima.
 
 ![image](https://github.com/VFigueiredo97/Sistema-Banco/assets/157542261/d3eb37b6-fea3-4a90-9a98-02aef8f43608)
@@ -69,6 +78,9 @@ Para exemplo de como testar, você pode tanto no insomnia como no seu ambiente l
 "valor": 1000,
 "senha": "12345"
 }
+
+
+
 
 **Transferir valores entre contas bancárias**
     ---> http://localhost:3000/transacao/transferir
